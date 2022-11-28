@@ -1,0 +1,88 @@
+@media all and (max-width: 400px) {
+  #welcome-section {
+    padding-top: 100px;
+    height: 300px;
+  }
+
+  #welcome-section h1 {
+    font-size: 30px;
+  }
+
+  #car {
+    padding: 2em 3em 0 3em;
+  }
+}
+
+@media all and (max-width: 600px) {
+  #welcome-section {
+    padding-top: 100px;
+    height: 300px;
+  }
+
+  #welcome-section h1 {
+    font-size: 30px;
+  }
+
+  #carouselExampleControls {
+    padding: 0 0.5em 5em 0.5em;
+  }
+  .profile-link-img {
+    width: 40px;
+    height: 40px;
+  }
+  #carouselExampleControls a {
+    display: none;
+  }
+  #profile-title h2 {
+    font-size: 20px;
+  }
+
+  .h3 {
+    font-size: 15px;
+  }
+
+  #profile {
+    padding-top: 2em;
+  }
+}
+
+@media all and (min-width: 608px) {
+  #welcome-section {
+    padding-top: 100px;
+    height: 300px;
+  }
+
+  #welcome-section h1 {
+    font-size: 50px;
+  }
+  #welcome-section p {
+    font-size: 30px;
+  }
+  #car {
+    padding: 2em 1em 0 1em;
+  }
+  .profile-link-img {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  #welcome-section {
+    padding-top: 100px;
+    height: 300px;
+  }
+
+  #welcome-section h1 {
+    font-size: 50px;
+  }
+  #welcome-section p {
+    font-size: 30px;
+  }
+}
+
+@media all and (max-width: 771px) {
+  #carouselExampleControls a {
+    display: none;
+  }
+}

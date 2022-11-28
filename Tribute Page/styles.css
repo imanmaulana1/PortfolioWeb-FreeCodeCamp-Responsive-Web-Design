@@ -1,0 +1,78 @@
+#main{
+	background-color: #eeeeee;
+	width: 100%;
+	border-radius: 5px;
+	margin-top: 30px;	
+	box-sizing: border-box;
+}
+
+#main #title{
+	font-family: "Segoe UI", Arial;
+	text-align: center;
+	padding-top: 45px;
+	font-size: 40px;
+}
+
+#main p{
+	font-family: "Segoe UI", Arial;
+	text-align: center;
+	margin-top: -5.5px;
+}
+
+#img-div{
+	background-color: white;
+	width: 97.5%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 11px;
+	box-sizing: border-box;
+}
+
+#image{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+#img-caption{
+	font-family: "Segoe UI", Arial;
+	text-align: center;
+	padding: 15px;
+}
+
+#tribute-info{
+	margin-bottom: 2.4%;
+}
+
+#tribute-info h3{
+	text-align: center;
+	font-family: "Segoe UI", Arial;;
+}
+
+#tribute-info ul{
+	max-width: 550px;
+	margin-top: 4%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	line-height: 1.6;
+}
+.list{
+	font-family: "Segoe UI", Arial;
+	margin-bottom: 16px;
+}
+
+#footer{
+	width: 45%;
+	padding-top: 40px;
+	margin: auto;
+}
+
+#footer p {
+	text-align: justify;
+	line-height: 25px;
+}
+
+.akhir{
+	padding: 35px;
+}

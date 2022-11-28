@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Portfolio Webpage</title>
+  </head>
+  <body>
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.freecodecamp.org/learn/2022/responsive-web-design">
+            <strong>FreeCodeCamp</strong>
+            <img src="img/logo.jpg" alt="FreeCodeCamp" width="35" height="35" class="d-inline-block align-text-top" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item list">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown list">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Projects </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="Survey/survey-form.html" target="_blank">Survey Form</a></li>
+                  <li><a class="dropdown-item" href="Tribute Page/index.html" target="_blank">Tribute Page</a></li>
+                  <li><a class="dropdown-item" href="Technical Documentation/index.html" target="_blank">Technical Documentation Page</a></li>
+                  <li><a class="dropdown-item" href="Landing Page/index.html" target="_blank">Landing Page</a></li>
+                </ul>
+              </li>
+              <li class="nav-item list">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item list">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section id="welcome-section">
+      <div id="satu" class="container-fluid">
+        <h1>Hi! My name is Iman Maulana</h1>
+        <p>I want to be Fullstack Web Developer</p>
+      </div>
+    </section>
+    <section id="projects" class="bg-dark">
+      <div id="car" class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h3><a href="Survey/survey-form.html" target="_blank" class="project-tile">Survey Form</a></h3>
+              <img src="img/1-survey.PNG" class="d-block w-100" alt="Survey Form" />
+            </div>
+            <div class="carousel-item">
+              <h3><a href="Tribute Page/index.html" target="_blank" class="project-tile">Tribute Page</a></h3>
+              <img src="img/2-tribute.PNG" class="d-block w-100" alt="Tribute Page" />
+            </div>
+            <div class="carousel-item">
+              <h3><a href="Technical Documentation/index.html" target="_blank" class="project-tile">Technical Documentation Page</a></h3>
+              <img src="img/3-technical-doc.PNG" class="d-block w-100" alt="Technical Documentation Page" />
+            </div>
+            <div class="carousel-item">
+              <h3><a href="Landing Page/index.html" target="_blank" class="project-tile">Landing Page</a></h3>
+              <img src="img/4-landing-page.PNG" class="d-block w-100" alt="Landing Page" />
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="profile" class="bg-dark">
+      <div class="container">
+        <div id="profile-title" class="row">
+          <h2>Let's Connect!</h2>
+        </div>
+        <div id="profile-link" class="row">
+          <div id="profile-link-linkedin" class="col-4">
+            <div class="row">
+              <h3 class="h3">LinkedIn</h3>
+            </div>
+            <div class="row">
+              <a href="https://www.linkedin.com/in/imanmaulana1/" target="_blank" class="profile-link"><img src="img/linkedin.png" alt="linkedin logo" class="profile-link-img" /></a>
+            </div>
+          </div>
+          <div id="profile-link-github" class="col-4">
+            <div class="row">
+              <h3 class="h3">Github</h3>
+            </div>
+            <div class="row">
+              <a href="https://github.com/imanmaulana1" target="_blank" class="profile-link"><img src="img/github.png" alt="github logo" class="profile-link-img" /></a>
+            </div>
+          </div>
+          <div id="profile-link-gmail" class="col-4">
+            <div class="row">
+              <h3 class="h3">Gmail</h3>
+            </div>
+            <div class="row">
+              <a href="mailto:im974426@gmail.com" target="_blank" class="profile-link"><img src="img/gmail.png" alt="gmail logo" class="profile-link-img" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div id="footer" class="container-fluid">
+        <div class="row">
+          <p>Copyright 2022 @ Iman Maulana</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

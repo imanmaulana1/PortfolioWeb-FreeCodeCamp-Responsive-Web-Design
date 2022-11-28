@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ededed;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
+#header {
+  display: flex;
+  padding: 0 20px;
+}
+
+.logo {
+  flex: 1.7;
+}
+
+#nav-bar {
+  flex: 1;
+}
+
+#header-img {
+  width: 300px;
+  padding: 20px;
+}
+
+#nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  padding-top: 12px;
+  justify-content: space-between;
+}
+#nav-bar li {
+  list-style-type: none;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  border: 1px darkred;
+}
+
+#email {
+  width: 25%;
+}
+
+#submit {
+  background-color: #fcb814;
+  font-weight: bolder;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+#submit:hover {
+  background-color: #d59b0f;
+}
+
+#features {
+  margin-top: 70px;
+}
+
+.kotak1 {
+  display: flex;
+  max-width: 65%;
+  margin: 0 auto 30px auto;
+}
+
+.icon {
+  flex: 1;
+}
+
+.fa {
+  padding-top: 10px;
+}
+
+.label .tulis {
+  margin-top: -20px;
+  font-size: 13px;
+}
+
+.label {
+  flex: 5;
+}
+
+#how_it_works {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#video {
+  width: 50%;
+}
+
+#pricing {
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.satu,
+.dua,
+.tiga {
+  width: 30%;
+  border: 1px solid black;
+}
+
+.satu h5 {
+  margin-top: 0px;
+  padding: 10px;
+  background-color: #dddddd;
+}
+
+.dua h5 {
+  margin-top: 0px;
+  padding: 10px;
+  background-color: #dddddd;
+}
+
+.tiga h5 {
+  margin-top: 0px;
+  padding: 10px;
+  background-color: #dddddd;
+}
+
+.btn {
+  background-color: #fcb814;
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #d59b0f;
+}
+
+#footer {
+  background-color: #dddddd;
+  height: 50px;
+}
+
+#footer ul {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#footer li {
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+#footer p {
+  display: flex;
+  font-size: 13px;
+  opacity: 0.7;
+  margin-top: -10px;
+  margin-right: 10px;
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 670px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  #nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #email {
+    width: 75%;
+  }
+
+  .label {
+    flex: 1;
+  }
+
+  .satu,
+  .dua,
+  .tiga {
+    margin: 30px auto;
+    width: 50%;
+  }
+
+  #pricing {
+    flex-direction: column;
+  }
+}

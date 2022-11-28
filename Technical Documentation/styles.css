@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    margin: 0 10px 0 10px;
+  }
+  #main-doc {
+    position: relative;
+  }
+
+  #navbar {
+    visibility: hidden;
+  }
+
+  #main-doc {
+    width: 100%;
+    margin-right: 20%;
+    text-align: left;
+    justify-content: center;
+  }
+  #main-doc header {
+    text-align: center;
+  }
+}
+
+#navbar {
+  width: 23.6%;
+  height: 100vh;
+  position: fixed;
+  float: left;
+  box-sizing: border-box;
+  border-right: solid 2px #99a2a2;
+}
+
+#main-doc {
+  width: 76%;
+  height: 100vh;
+  float: right;
+  padding: 30px 30px 30px 0;
+  box-sizing: border-box;
+}
+
+#navbar header {
+  font-size: 28.7px;
+  padding-top: 15px;
+  padding-left: 32.5px;
+}
+
+#navbar a {
+  color: #5b5b5b;
+  text-decoration: none;
+}
+
+.link {
+  height: 90vh;
+  overflow: scroll;
+  position: relative;
+  top: 21px;
+}
+.nav-link {
+  text-decoration: none;
+  list-style-type: none;
+  display: block;
+  color: black;
+  width: 280px;
+  border-top: solid 1.1px #99a2a2;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-bottom: 13.5px;
+  padding-left: 30px;
+}
+
+.link .reference {
+  padding-bottom: 10px;
+}
+
+#main-doc header {
+  font-weight: 500;
+  font-size: 29px;
+  margin-left: 30px;
+  margin-top: 4px;
+  color: black;
+}
+
+.main-section {
+  color: #5b5b5b;
+  font-size: 15.8px;
+  margin-top: 20px;
+}
+.main-section p {
+  margin-top: 20px;
+  padding-left: 45px;
+  line-height: 1.45;
+}
+.main-section ul {
+  list-style-type: disc;
+}
+
+.main-section li {
+  padding-top: 20px;
+  margin-left: 100px;
+  line-height: 1.45;
+}
+
+#Introduction header {
+  margin-top: -10px;
+}
+
+code {
+  background-color: #f0f0f0;
+  width: 90%;
+  margin-left: 60px;
+  margin-top: 12px;
+  padding: 15px 40px;
+  border-radius: 10px;
+  display: inline-block;
+  font-family: "Courier New";
+}
+
+#reference {
+  padding-bottom: 5%;
+}
