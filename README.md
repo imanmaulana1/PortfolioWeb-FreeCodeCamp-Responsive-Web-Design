@@ -1,6 +1,6 @@
-# FreeCodeCamp-Responsive-Web-Design
+# FreeCodeCamp-Responsive-Web-Design (https://www.freecodecamp.org/learn/2022/responsive-web-design/)
 
-https://www.freecodecamp.org/learn/2022/responsive-web-design/
+access to view: https://imanmaulana1.github.io/FreeCodeCamp-Responsive-Web-Design/
 
 This project is required to obtain a certificate from FreeCodeCamp. There are 5 projects to create:
 
