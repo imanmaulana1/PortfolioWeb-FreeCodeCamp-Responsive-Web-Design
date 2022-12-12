@@ -25,3 +25,7 @@ And this portfolio uses a number of open source website to work properly:
 ## Documentation
 
 ![Frame 1](https://user-images.githubusercontent.com/108262868/207014291-bdf4ec73-2002-46b0-91ec-0482549247c4.png)
+
+
+# Other
+- Certificate (https://www.freecodecamp.org/certification/imanmaulana1/responsive-web-design)
