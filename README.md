@@ -1,15 +1,27 @@
-# FreeCodeCamp-Responsive-Web-Design (https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+# Mini Portfolio
+## _FreecodeCamp Web Responsive Design_
+This project is required to obtain a certificate from FreeCodeCamp. There are 5 projects to create: (https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+- Survey Form
+- Tribute Page
+- Landing Page
+- Technical Documentation Page
+- Portfolio Webpage
+#
+## Environment
+- HTML
+- CSS
 
-access to view: (https://imanmaulana1.github.io/Web-FreeCodeCamp-Responsive-Web-Design/)
+And this portfolio uses a number of open source website to work properly:
+- (https://www.flaticon.com/.com/)
+- (https://fonts.google.com/)
+- (https://fontawesome.com/icons/)
+- (https://getbootstrap.com/)
 
-This project is required to obtain a certificate from FreeCodeCamp. There are 5 projects to create:
+## Access to view
 
-1. Survey Form
+[FreecodeCamp Web Design](https://6396fa20ce269062b5361661--elegant-sopapillas-ae705c.netlify.app/) 
 
-2. Tribute Page
 
-3. Landing Page
+## Documentation
 
-4. Technical Documentation Page
-
-5. Portfolio Webpage
+![Frame 1](https://user-images.githubusercontent.com/108262868/207014291-bdf4ec73-2002-46b0-91ec-0482549247c4.png)
