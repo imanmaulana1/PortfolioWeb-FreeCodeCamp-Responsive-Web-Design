@@ -19,7 +19,7 @@ And this portfolio uses a number of open source website to work properly:
 
 ## Access to view
 
-[FreecodeCamp Web Design](https://hilarious-daifuku-fe0e63.netlify.app/) 
+[FreecodeCamp Web Design](/) 
 
 
 ## Documentation
